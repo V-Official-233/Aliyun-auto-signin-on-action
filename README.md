@@ -5,8 +5,8 @@
 
 - [获取阿里云盘手机版Token](#获取阿里云盘手机版Token)
 - [获取Github仓库访问密钥](#获取Github仓库访问密钥)
-- [仓库环境变量配置](#)
-- [执行测试](#)
+- [仓库环境变量配置](#仓库环境变量配置)
+- [执行测试](#执行测试)
 
 
 ## 获取阿里云盘手机版Token
@@ -40,6 +40,8 @@ Note(名称)可以随便写，"Expiration"把密钥过期换成"No expiration",�
 
 ![](https://gcore.jsdelivr.net/gh/V-Official-233/photo/5.jpg)
 
+## 仓库环境变量配置
+
 然后打开你Fork的仓库的设置，找到"Secrets and variables"-"Action"
 
 ![](https://gcore.jsdelivr.net/gh/V-Official-233/photo/6.jpg)
@@ -58,5 +60,6 @@ ghp_xxxxx| 获取的密钥是随机的，这里就不写示例了
 
 ![](https://gcore.jsdelivr.net/gh/V-Official-233/photo/20230416023352.png)
 
-## 接下来执行Action运行查看是否签到成功即可
+## 执行测试
+接下来执行Action运行查看是否签到成功即可
 
