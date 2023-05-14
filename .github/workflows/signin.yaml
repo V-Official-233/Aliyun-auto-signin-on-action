@@ -14,3 +14,15 @@ jobs:
         with:
           REFRESH_TOKENS: ${{ secrets.REFRESH_TOKENS }}
           GP_TOKEN: ${{ secrets.GP_TOKEN}}
+          PUSH_TYPES: 'telegram'
+          SERVERCHAN_SEND_KEY: ${{ secrets.SERVERCHAN_SEND_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_TLS: ${{ secrets.SMTP_TLS }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          SMTP_SENDER: ${{ secrets.SMTP_SENDER }}
+          SMTP_RECEIVER: ${{ secrets.SMTP_RECEIVER }}
